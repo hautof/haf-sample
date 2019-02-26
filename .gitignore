@@ -15,5 +15,4 @@ dist/*
 
 haf.egg-info/*
 testcases/*
-thirdparty/*
 venv/*

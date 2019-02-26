@@ -12,7 +12,8 @@
         "auth_key": ""
       },
       "report": {
-        "report_path": "./data/report.html"
+        "report_path": "./data/report.html",
+        "report_template": "./report/base.html"
       },
       "case": [
         {
