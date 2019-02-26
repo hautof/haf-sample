@@ -1,0 +1,52 @@
+{
+  "config":{
+    "name": "HAF",
+    "run": {
+      "log": {
+        "log_path": "./data"
+      },
+      "bus": {
+        "only": false,
+        "host": "",
+        "port": "",
+        "auth_key": ""
+      },
+      "report": {
+        "report_path": "./data/report.html"
+      },
+      "case": [
+        {
+          "case_path": "./test2.json"
+        },
+
+        {
+          "case_path": "./test1.xlsx"
+        },
+
+        {
+          "case_path": "./test3.yml"
+        },
+
+        {
+          "case_path": "./test4.py"
+        }
+      ],
+      "runner":{
+        "only": false,
+        "count": 1
+      },
+      "loader": {
+        "only": false
+      },
+      "recorder": {
+        "only": false
+      },
+      "web_server": {
+        "host": "",
+        "port": "",
+        "run": true
+      }
+    }
+  }
+
+}
