@@ -2,6 +2,8 @@
 
 This is the sample of haf.
 
+[![Build Status](https://travis-ci.org/hautof/haf-sample.svg?branch=master)](https://travis-ci.org/hautof/haf-sample)
+
 ### haf
 
 > https://github.com/tsbxmw/haf
