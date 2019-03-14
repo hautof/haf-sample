@@ -1,0 +1,59 @@
+{
+	"testcases": [
+      {
+		"id": 1,
+		"name": "test baidu",
+		"subid": 1,
+		"subname": "default",
+		"app_name": "default",
+		"run": true,
+		"type": "web",
+	    "wait_time": 2,
+		"desired_caps": {
+			"platformName": "chrome",
+            "platformVersion": "9",
+            "start_url": "http://baidu.com"
+		},
+		"stage": [
+			{
+				"id": 1,
+				"name": "输入搜索内容",
+				"operation": "send_keys",
+				"path": {
+					"xpath": "//*[@id='kw']"
+				},
+				"try": false,
+				"info": {"keys": "autotest.wang"},
+				"sleep": 0.5
+			},
+			{
+				"id": 2,
+				"name": "点击搜索按钮",
+				"operation": "click",
+				"path": {
+					"xpath": "//*[@id='su']"
+				},
+				"try": false,
+				"info": null,
+				"sleep": 0.5
+			}
+		],
+		"dependent": null
+	}],
+	"dbconfig": [{
+		"id": 1,
+		"sql_name": "mysql1",
+		"protocol": "mysql",
+		"host": "192.168.41.208",
+		"port": 3306,
+		"username": "root",
+		"password": "testzhan123",
+		"database": "visual"
+	}],
+	"config": [{
+		"name": "test_baidu",
+		"benchname": "test_baidu",
+		"protocol": "http",
+		"host_port": "www.baidu.com"
+	}]
+}

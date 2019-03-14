@@ -1,0 +1,41 @@
+{
+  "config":{
+    "name": "HAF-WEB",
+    "run": {
+      "log": {
+        "log_path": "./data"
+      },
+      "bus": {
+        "only": false,
+        "host": "",
+        "port": "",
+        "auth_key": ""
+      },
+      "report": {
+        "report_path": "./data/report.html",
+        "report_template": "base_web"
+      },
+      "case": [
+        {
+          "case_path": "./test_web.json"
+        }
+      ],
+      "runner":{
+        "only": false,
+        "count": 1
+      },
+      "loader": {
+        "only": false
+      },
+      "recorder": {
+        "only": false
+      },
+      "web_server": {
+        "host": "",
+        "port": "",
+        "run": false
+      }
+    }
+  }
+
+}
