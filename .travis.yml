@@ -4,6 +4,7 @@ python:
 # command to install dependencies
 install:
   - pip install haf
+  - pip install jsonschema
 script:
   - # or py.test for Python versions 3.5 and below
   - python -m haf run -c=./config.json
