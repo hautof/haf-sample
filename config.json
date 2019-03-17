@@ -13,7 +13,8 @@
       },
       "report": {
         "report_path": "./data/report.html",
-        "report_template": "./report/base.html"
+        "report_template": "./report/base.html",
+        "report_export_template": "./report/base_email.html"
       },
       "case": [
         {
