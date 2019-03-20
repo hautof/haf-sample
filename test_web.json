@@ -24,7 +24,8 @@
 				},
 				"try": false,
 				"info": {"keys": "autotest.wang"},
-				"sleep": 0.5
+                "sleep": 0,
+                "run_count": 100
 			},
 			{
 				"id": 2,
@@ -35,7 +36,8 @@
 				},
 				"try": false,
 				"info": null,
-				"sleep": 0.5
+                "sleep": 0,
+                "run_count": 50
 			}
 		],
 		"dependent": null

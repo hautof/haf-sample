@@ -2,6 +2,7 @@
   "config":{
     "name": "HAF-WEB",
     "run": {
+      "bus_server_port": 8002,
       "log": {
         "log_path": "./data"
       },
