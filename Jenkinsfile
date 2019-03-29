@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('update') {
       steps {
-        sh 'sudo pip3 install haf -U'
+        sh 'pip3 install haf -U'
         sh 'pip3 install hafsqlpublish -U'
         sh 'pip3 install hafapiserver -U'
       }
