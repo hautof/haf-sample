@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('update') {
       steps {
-        sh '''pip3 install haf -U
-pip3 install hafsqlpublish -U
-pip3 install hafapiserver -U'''
+        sh 'echo mengwei | sudo pip3 install haf -U'
+        sh 'echo mengwei | pip3 install hafsqlpublish -U'
+        sh 'echo mengwei | pip3 install hafapiserver -U'
       }
     }
     stage('run test') {
